@@ -1,0 +1,12 @@
+alias b='bundle'
+alias bi='bundle install'
+alias be='bundle exec'
+alias bu='bundle update'
+alias bs='bundle show'
+
+alias ls='ls -G'
+alias ll='ls -al'
+
+alias tmux_base='tmux new-session "tmux source-file ~/repos/shell/.tmux_session"'
+
+alias curl-json='curl -H "Accept: application/json; version=1"'
