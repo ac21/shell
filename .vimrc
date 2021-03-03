@@ -20,6 +20,10 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 
+set backupdir=./tmp,~/tmp,.
+set directory=./tmp,~/tmp,/var/tmp,/tmp,.
+set undodir=./tmp,~/tmp,.
+
 set ignorecase
 set smartcase
 set gdefault

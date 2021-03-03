@@ -14,11 +14,9 @@ brew install zsh zsh-completions zsh-syntax-highlighting
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 ```
 
-* Install vcprompt
 ```sh
-mkdir ~/.bin
-curl -sL https://github.com/djl/vcprompt/raw/master/bin/vcprompt > ~/.bin/vcprompt
-chmod 755 ~/.bin/vcprompt
+git clone https://github.com/zsh-users/zsh-completions $ZSH/plugins/zsh-completions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
 ```
 
 
