@@ -2,6 +2,12 @@
 
 ## Setup MacOS
 
+### Install rbenv & ruby
+```
+brew install rbenv
+```
+
+
 ### Install ZSH & Oh My ZSH
 
 * Load zsh, completions, and highlighting
@@ -19,8 +25,18 @@ git clone https://github.com/zsh-users/zsh-completions $ZSH/plugins/zsh-completi
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
 ```
 
+* copy reference files and load
+```sh
+cp ./.zshrc ~/
+source ~/.zshrc
+```
 
 ### Install VIM
+
+* Copy reference files
+```sh
+cp ./.vimrc ~/
+```
 
 * Load pathogen
 ```sh
